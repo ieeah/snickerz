@@ -1,0 +1,20 @@
+.inline-center {
+  margin-inline: auto;
+}
+
+.inline-list {
+  display: flex;
+  justify-content: end;
+  li {
+    list-style: none;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

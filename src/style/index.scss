@@ -1,0 +1,17 @@
+@import "./consts.scss";
+@import "./utilities.scss";
+@import "./header.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $primary-font;
+	font-weight: bold;
+	font-size: 16px;
+	color: $dark-color;
+	background: $primary-color;
+}

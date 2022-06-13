@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HeroBanner shoes={assets.popUp.shoes} />
+      <HeroBanner shoes={assets.shoes.evidence} />
     </div>
   );
 }

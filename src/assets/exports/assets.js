@@ -1,20 +1,48 @@
 // definizione degli asset da esportare e rendere utilizzabili nel progetto
 
-const popUpShoesImg = require("../imgs/shoes/Nike Super Rep Go 2.jpg");
-
 const assets = {
   header: {
     logo: require("../imgs/Z-logo.svg"),
   },
-  hero: {
-    img: popUpShoesImg,
-  },
-  popUp: {
-    shoes: {
+  shoes: {
+    evidence: {
       brand: "Nike",
       model: "Super Rep Go 2",
-      img: popUpShoesImg,
-    }
+      img: require("../imgs/shoes/Nike Super Rep Go 2.jpg"),
+      disclaimer: "Just Arrived",
+    },
+    other: [
+      {
+        brand: "Nike",
+        model: "Airzoom Pegasus",
+        img: require("../imgs/shoes/Nike Airzoom Pegasus/01.png"),
+      },
+      {
+        brand: "Nike",
+        model: "Alphafly",
+        img: require("../imgs/shoes/Nike Alphafly/01.png"),
+      },
+      {
+        brand: "Nike",
+        model: "Ekiden",
+        img: require("../imgs/shoes/Nike Ekiden/01.png"),
+      },
+      {
+        brand: "Nike",
+        model: "React",
+        img: require("../imgs/shoes/Nike React/01.png"),
+      },
+      {
+        brand: "Nike",
+        model: "Zoom Fly 4",
+        img: require("../imgs/shoes/Nike Zoom Fly 4/01.png"),
+      },
+      {
+        brand: "Nike",
+        model: "ZoomX",
+        img: require("../imgs/shoes/Nike ZoomX/01.png"),
+      }
+    ],
   },
 };
 

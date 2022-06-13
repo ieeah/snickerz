@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  padding-top: 100px;
   .background {
     width: 100%;
     height: 130%;
@@ -15,10 +16,37 @@
   }
   .inner-hero {
     display: flex;
-    justify-content: justify-content;
+    justify-content: space-between;
+    align-items: center;
     z-index: 1;
-    img {
-      height: fit-content;
+    .popup {
+      padding: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba($color: $clear-color, $alpha: .5);
+      .shoes-info {
+        background-color: $primary-color;
+        font-family: $secondary-font;
+        padding: 0rem .5rem;
+        font-size: 4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        .brand-logo {
+          img {
+            width: 90px;
+          }
+        }
+        .model {
+          word-break: keep-all;
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
     }
   }
 
@@ -44,11 +72,5 @@
         height: 100vw;
       }
     }
-  }
-
-  .popup {
-    width: 100vw;
-    height: 300px;
-    background-color: red;
   }
 }

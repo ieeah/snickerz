@@ -44,6 +44,11 @@ const assets = {
       }
     ],
   },
+  icons: {
+    carrello: require("../imgs/icons/bag-shopping-solid.svg"),
+    search: require("../imgs/icons/magnifying-glass-solid.svg"),
+    chevronRight: require("../imgs/icons/button-right.png"),
+  }
 };
 
 export default assets;

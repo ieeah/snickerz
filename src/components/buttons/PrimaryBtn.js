@@ -1,7 +1,9 @@
-function PrimaryBtn({ icon }) {
+function PrimaryBtn({ icon, text, personalized, img }) {
   return (
-    <button className="primary-btn">
-      <i className={<i class="fa-solid fa-chevron-right"></i>}></i>
+    <button className="primary primary-btn">
+      {text && <p>{text}</p>}
+      {icon && <i className={icon}></i>}
+      {personalized && (<img className="personalized-icon" src={img} alt="" />)}
     </button>
   );
 }

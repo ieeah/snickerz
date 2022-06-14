@@ -1,4 +1,5 @@
 // props: scarpa (oggetto da cui estrapolare, brand, src immagine, modello"name", showPage), colore del riquadro extra (se non presente, il riquadro non viene renderizzato e viene renderizzata la sola immagine)
+import assets from "../assets/exports/assets";
 import PrimaryBtn from "./buttons/PrimaryBtn";
 const NikeBrand = require("../assets/imgs/brands/nike-swoosh.png");
 export default function HeroBanner({ shoes }) {
@@ -15,10 +16,10 @@ export default function HeroBanner({ shoes }) {
           </div>
           <div className="right col-4">
             <div className="disclaimer">{shoes.disclaimer}</div>
-            <PrimaryBtn />
+            <PrimaryBtn personalized={true} img={assets.icons.chevronRight} />
           </div>
         </div>
-        <img src={shoes.img} alt=""/>
+        <img src={shoes.img} alt="" />
       </div>
     </div>
   );

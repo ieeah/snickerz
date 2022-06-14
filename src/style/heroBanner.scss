@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding-top: 100px;
   .background {
     width: 100%;
     height: 130%;
@@ -19,40 +18,8 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    .popup {
-      padding: 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      background-color: rgba($color: $clear-color, $alpha: .5);
-      .shoes-info {
-        background-color: $primary-color;
-        font-family: $secondary-font;
-        padding: 0rem .5rem;
-        font-size: 4rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        .brand-logo {
-          img {
-            width: 90px;
-          }
-        }
-        .model {
-          word-break: keep-all;
-        }
-      }
-      .right {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-evenly;
-        .disclaimer {
-          font-size: 2rem;
-          font-family: $secondary-font;
-          text-transform: uppercase;
-          text-align: right;
-          width: 50%;
-        }
-      }
+    img.evidence {
+      height: 75vh;
     }
   }
 

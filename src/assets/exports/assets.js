@@ -8,7 +8,7 @@ const assets = {
     evidence: {
       brand: "Nike",
       model: "Super Rep Go 2",
-      img: require("../imgs/shoes/Nike Super Rep Go 2.jpg"),
+      img: require("../imgs/shoes/Nike-Super-Rep-Go.png"),
       disclaimer: "Just Arrived",
     },
     other: [

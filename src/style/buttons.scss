@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 5px -5px rgba($color: $tertiary-color, $alpha: 0.5);
+  transition: all .2s $bezier-click;
   p {
     font-size: 2.5rem;
     font-family: $primary-font;
@@ -25,5 +26,11 @@
   .personalized-icon {
     height: 2rem;
     margin-left: 4rem;
+  }
+
+  &:hover {
+    box-shadow: 0 0 rgba($color: $tertiary-color, $alpha: 0.5);
+    // background-color: rgba($color: $tertiary-color, $alpha: 0.8);
+    transform: translate(5px, -5px);
   }
 }

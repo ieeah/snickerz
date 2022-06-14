@@ -1,44 +1,14 @@
-import { useState } from 'react';
-import assets from "../assets/exports/assets";
+import assets, { topLinks, loginLinks, mainLinks } from "../assets/exports/assets";
+import { useEffect } from "react";
 
 export default function Header() {
 
-  const [topLinks] = useState([
-    { text: "Newsletter", to: "/" },
-    { text: "Negozi", to: "/" },
-    { text: "Contatti", to: "/" },
-    { text: "Lavora con noi", to: "/" },
-    { text: "Rimborsi e resi", to: "/" },
-  ]);
-
-  const [loginLinks] = useState([
-    
-    {
-      text: "Registrati",
-      to: "/",
-    },
-    {
-      text: "Accedi",
-      to: "/",
-    }
-  ]);
-
-  const [mainLinks] = useState([
-    {
-      text: "Donna",
-      to: "/",
-    },
-    {
-      text: "Uomo",
-      to: "/",
-    },
-    {
-      text: "Bambini",
-      to: "/",
-    }
-  ]);
-
   const heroImg = assets.header.logo.default;
+
+  useEffect(() => {
+    console.log(topLinks, loginLinks, mainLinks);
+  }, [])
+  
 
   return (
     <div className="header">

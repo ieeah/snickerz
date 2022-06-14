@@ -1,14 +1,14 @@
-button {
+.btn {
   border: 0;
   border-radius: 0;
 }
 
-button.primary-btn {
+.btn.primary-btn {
   background-color: $tertiary-color;
   color: $clear-color;
 }
 
-button.primary {
+.btn.default {
   padding: 0.4rem 0.5rem;
   font-size: 4rem;
   display: flex;

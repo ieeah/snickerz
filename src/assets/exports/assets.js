@@ -1,4 +1,37 @@
 // definizione degli asset da esportare e rendere utilizzabili nel progetto
+export const topLinks = [
+  { text: "Newsletter", to: "/" },
+  { text: "Negozi", to: "/" },
+  { text: "Contatti", to: "/" },
+  { text: "Lavora con noi", to: "/" },
+  { text: "Rimborsi e resi", to: "/" },
+];
+
+export const loginLinks = [
+  {
+    text: "Registrati",
+    to: "/",
+  },
+  {
+    text: "Accedi",
+    to: "/",
+  },
+];
+
+export const mainLinks = [
+  {
+    text: "Donna",
+    to: "/",
+  },
+  {
+    text: "Uomo",
+    to: "/",
+  },
+  {
+    text: "Bambini",
+    to: "/",
+  },
+];
 
 const assets = {
   header: {

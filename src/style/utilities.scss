@@ -18,3 +18,12 @@
     }
   }
 }
+
+@mixin unstyled-link {
+  color: inherit;
+}
+.unstyled-link {
+  @include unstyled-link;
+  cursor: pointer;
+}
+
